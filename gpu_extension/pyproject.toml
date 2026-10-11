@@ -1,0 +1,20 @@
+[project]
+name = "robots-world-models-gpu"
+version = "0.1.0"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+  "torch==2.5.1", "numpy==1.26.4", "diffusers==0.27.2",
+  "huggingface-hub==0.25.2", "einops==0.8.0", "dill==0.3.8",
+  "omegaconf==2.3.0", "zarr==2.18.3", "numcodecs==0.12.1",
+  "gym==0.26.2", "pygame==2.6.1", "pymunk==6.6.0",
+  "shapely==2.0.6", "opencv-python-headless==4.10.0.84",
+  "matplotlib==3.9.2", "scikit-image==0.24.0", "scipy==1.14.1"
+]
+[tool.uv]
+package = false
+[tool.uv.sources]
+torch = { index = "pytorch-cuda" }
+[[tool.uv.index]]
+name = "pytorch-cuda"
+url = "https://download.pytorch.org/whl/cu124"
+explicit = true

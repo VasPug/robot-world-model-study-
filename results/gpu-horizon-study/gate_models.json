@@ -1,0 +1,254 @@
+[
+  {
+    "lambda_per_second": 0,
+    "seed": 11,
+    "coefficients": [
+      0.21662585038077795,
+      -0.24066350955428908,
+      0.30026178770915474,
+      -0.17396786436685005,
+      -0.046545257358235295,
+      -0.1649131025406202
+    ],
+    "features": [
+      "intercept",
+      "initial_coverage",
+      "block_x",
+      "block_y",
+      "relative_pusher_x",
+      "relative_pusher_y"
+    ],
+    "fit_split": "validation"
+  },
+  {
+    "lambda_per_second": 0,
+    "seed": 22,
+    "coefficients": [
+      0.03842832422166218,
+      0.27211974720698967,
+      -0.013602889524614583,
+      -0.17950771670032376,
+      -0.1623346754898736,
+      -0.11071292181642237
+    ],
+    "features": [
+      "intercept",
+      "initial_coverage",
+      "block_x",
+      "block_y",
+      "relative_pusher_x",
+      "relative_pusher_y"
+    ],
+    "fit_split": "validation"
+  },
+  {
+    "lambda_per_second": 0,
+    "seed": 33,
+    "coefficients": [
+      0.18590440263850624,
+      0.0006850889164213788,
+      -0.025209006656528143,
+      -0.09157165238923205,
+      -0.0757629406001933,
+      -0.061070210005319946
+    ],
+    "features": [
+      "intercept",
+      "initial_coverage",
+      "block_x",
+      "block_y",
+      "relative_pusher_x",
+      "relative_pusher_y"
+    ],
+    "fit_split": "validation"
+  },
+  {
+    "lambda_per_second": 0.01,
+    "seed": 11,
+    "coefficients": [
+      0.20025710487289594,
+      -0.25444384647574125,
+      0.31771544799457724,
+      -0.18153570802115065,
+      -0.04769521554840168,
+      -0.19937670424224627
+    ],
+    "features": [
+      "intercept",
+      "initial_coverage",
+      "block_x",
+      "block_y",
+      "relative_pusher_x",
+      "relative_pusher_y"
+    ],
+    "fit_split": "validation"
+  },
+  {
+    "lambda_per_second": 0.01,
+    "seed": 22,
+    "coefficients": [
+      0.014106494601701871,
+      0.29206987307530013,
+      -0.01035884826895137,
+      -0.21292943010464416,
+      -0.17575497133759266,
+      -0.12956170551422477
+    ],
+    "features": [
+      "intercept",
+      "initial_coverage",
+      "block_x",
+      "block_y",
+      "relative_pusher_x",
+      "relative_pusher_y"
+    ],
+    "fit_split": "validation"
+  },
+  {
+    "lambda_per_second": 0.01,
+    "seed": 33,
+    "coefficients": [
+      0.17246142836065484,
+      -0.004111134796849858,
+      -0.012494985891765079,
+      -0.11142638198363572,
+      -0.07633329704024266,
+      -0.07223808113796643
+    ],
+    "features": [
+      "intercept",
+      "initial_coverage",
+      "block_x",
+      "block_y",
+      "relative_pusher_x",
+      "relative_pusher_y"
+    ],
+    "fit_split": "validation"
+  },
+  {
+    "lambda_per_second": 0.1,
+    "seed": 11,
+    "coefficients": [
+      0.05293839530195856,
+      -0.3784668787688126,
+      0.4747983905633803,
+      -0.24964630090985607,
+      -0.058044839259899034,
+      -0.5095491195568818
+    ],
+    "features": [
+      "intercept",
+      "initial_coverage",
+      "block_x",
+      "block_y",
+      "relative_pusher_x",
+      "relative_pusher_y"
+    ],
+    "fit_split": "validation"
+  },
+  {
+    "lambda_per_second": 0.1,
+    "seed": 22,
+    "coefficients": [
+      -0.20478997197794155,
+      0.47162100589009687,
+      0.018837523032019854,
+      -0.5137248507435287,
+      -0.29653763396706334,
+      -0.2992007587944473
+    ],
+    "features": [
+      "intercept",
+      "initial_coverage",
+      "block_x",
+      "block_y",
+      "relative_pusher_x",
+      "relative_pusher_y"
+    ],
+    "fit_split": "validation"
+  },
+  {
+    "lambda_per_second": 0.1,
+    "seed": 33,
+    "coefficients": [
+      0.051474659859989745,
+      -0.047277148216285536,
+      0.10193120099110338,
+      -0.2901189483332677,
+      -0.08146650500068617,
+      -0.17274892133178374
+    ],
+    "features": [
+      "intercept",
+      "initial_coverage",
+      "block_x",
+      "block_y",
+      "relative_pusher_x",
+      "relative_pusher_y"
+    ],
+    "fit_split": "validation"
+  },
+  {
+    "lambda_per_second": 1,
+    "seed": 11,
+    "coefficients": [
+      -1.4202487004074094,
+      -1.618697201699535,
+      2.045627816251419,
+      -0.930752229796915,
+      -0.1615410763748688,
+      -3.6112732727032375
+    ],
+    "features": [
+      "intercept",
+      "initial_coverage",
+      "block_x",
+      "block_y",
+      "relative_pusher_x",
+      "relative_pusher_y"
+    ],
+    "fit_split": "validation"
+  },
+  {
+    "lambda_per_second": 1,
+    "seed": 22,
+    "coefficients": [
+      -2.3937546377743795,
+      2.2671323340380742,
+      0.31080123604172816,
+      -3.5216790571323697,
+      -1.5043642602617737,
+      -1.9955912915966694
+    ],
+    "features": [
+      "intercept",
+      "initial_coverage",
+      "block_x",
+      "block_y",
+      "relative_pusher_x",
+      "relative_pusher_y"
+    ],
+    "fit_split": "validation"
+  },
+  {
+    "lambda_per_second": 1,
+    "seed": 33,
+    "coefficients": [
+      -1.1583930251466605,
+      -0.47893728241064343,
+      1.2461930698197916,
+      -2.0770446118295887,
+      -0.13279858460511945,
+      -1.1778573232699583
+    ],
+    "features": [
+      "intercept",
+      "initial_coverage",
+      "block_x",
+      "block_y",
+      "relative_pusher_x",
+      "relative_pusher_y"
+    ],
+    "fit_split": "validation"
+  }
+]

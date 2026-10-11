@@ -1,0 +1,27 @@
+{
+  "world_model_a": {
+    "parameters": 85524,
+    "best_epoch": 80,
+    "validation_mse": 0.0003194084274582565,
+    "training_wall_seconds": 7.551477423869073,
+    "training_cpu_seconds": 15.077582368000002,
+    "validation_keypoint_rmse_pixels": 0.8936001062393188
+  },
+  "world_model": {
+    "parameters": 121504,
+    "best_epoch": 79,
+    "validation_mse": 0.007148760836571455,
+    "training_wall_seconds": 9.623978697694838,
+    "training_cpu_seconds": 19.244712950999997,
+    "validation_keypoint_rmse_pixels": 4.2275166511535645,
+    "validation_score_mae": 0.020334040080316838
+  },
+  "direct_scorer": {
+    "parameters": 80641,
+    "best_epoch": 66,
+    "validation_mse": 0.005952892359346151,
+    "training_wall_seconds": 7.286237281747162,
+    "training_cpu_seconds": 14.56734748400001,
+    "validation_score_mae": 0.052420198917388916
+  }
+}

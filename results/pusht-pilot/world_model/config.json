@@ -1,0 +1,23 @@
+{
+  "variant": "world_model",
+  "seed": 42,
+  "threads": 2,
+  "candidates": 4,
+  "execution_horizon": 8,
+  "num_inference_steps": 100,
+  "max_steps": 300,
+  "test_start_seed": 610000,
+  "test_seeds": 12,
+  "conditions": [
+    "standard",
+    "shifted_start"
+  ],
+  "shift_pixels": 40,
+  "epochs": 80,
+  "batch_size": 256,
+  "learning_rate": 0.001,
+  "auxiliary_hidden": 256,
+  "artifact_root": "outputs/pusht-pilot",
+  "input_cache": ".cache/pusht",
+  "expected_auxiliary_sha256": "c80da58cc822f5356679a5ee03b3c3ada0a0c1bab73a97ce912b3f4b4431fdda"
+}

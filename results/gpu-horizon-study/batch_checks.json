@@ -1,0 +1,5 @@
+{
+  "candidate_zero_max_error_pixels": 0.013519287109375,
+  "batch_order_max_error_pixels": 0.0,
+  "sampler": "100-step DDPM epsilon/fixed_small; independent CPU noise per candidate"
+}

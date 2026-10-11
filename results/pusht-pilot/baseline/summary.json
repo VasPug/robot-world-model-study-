@@ -1,0 +1,33 @@
+{
+  "variant": "baseline",
+  "episodes": 24,
+  "independent_reset_seeds": 12,
+  "policy_training_seeds": 1,
+  "auxiliary_training_seeds": 0,
+  "success_rate": 0.375,
+  "success_rate_cluster_bootstrap_95ci": [
+    0.20833333333333334,
+    0.5416666666666666
+  ],
+  "mean_max_reward": 0.9314989419345018,
+  "mean_max_reward_cluster_bootstrap_95ci": [
+    0.856083662706959,
+    0.987883564402427
+  ],
+  "mean_decision_latency_seconds": 1.4491048666705442,
+  "p95_decision_latency_seconds": 1.607579143717885,
+  "total_decision_cpu_seconds": 2266.2583389109977,
+  "mean_simulated_seconds": 25.829166666666666,
+  "mean_episode_wall_seconds": 47.71966954072317,
+  "peak_process_rss_mib": 554.78515625,
+  "strata": {
+    "standard": {
+      "success_rate": 0.5,
+      "mean_max_reward": 0.9476409703450449
+    },
+    "shifted_start": {
+      "success_rate": 0.25,
+      "mean_max_reward": 0.9153569135239586
+    }
+  }
+}

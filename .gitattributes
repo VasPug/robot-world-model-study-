@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.pdf binary
+*.pt binary
+*.gz binary
+
+# Preserve reference CSV bytes, including original line endings, for SHA-256 checks.
+*.csv -text

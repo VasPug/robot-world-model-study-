@@ -1,0 +1,10 @@
+{
+  "transformer.ckpt": {
+    "url": "https://diffusion-policy.cs.columbia.edu/data/experiments/low_dim/pusht/diffusion_policy_transformer/train_0/checkpoints/epoch%3D0850-test_mean_score%3D0.967.ckpt",
+    "sha256": "fa302d345467ef5927d60f3fd7cdd222e1ee8fda52216ca64323a08e2ce700a8"
+  },
+  "pusht.zip": {
+    "url": "https://diffusion-policy.cs.columbia.edu/data/training/pusht.zip",
+    "sha256": "63d52a114a3f010861f0181309d165b7d69133ccae426ece2fc94caed147bdf9"
+  }
+}

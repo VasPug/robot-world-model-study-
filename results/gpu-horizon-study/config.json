@@ -1,0 +1,56 @@
+{
+  "stage": "full-study",
+  "artifact_root": "outputs/gpu-horizon-study",
+  "input_cache": ".cache/pusht",
+  "training_seeds": [
+    11,
+    22,
+    33
+  ],
+  "horizons": [
+    8,
+    32,
+    64
+  ],
+  "widths": [
+    128,
+    512,
+    2560
+  ],
+  "evaluation_widths": [
+    128,
+    512,
+    2560
+  ],
+  "train_windows": 3000,
+  "validation_windows": 600,
+  "epochs": 80,
+  "batch_size": 128,
+  "learning_rate": 0.0003,
+  "candidates": 8,
+  "execution_horizon": 8,
+  "max_steps": 300,
+  "evaluation_seeds": 100,
+  "evaluation_seed_start": 820000,
+  "validation_reset_seeds": 12,
+  "validation_seed_start": 810000,
+  "parallel_episodes": 64,
+  "timing_samples": 12,
+  "primary_width": 512,
+  "primary_horizon": 32,
+  "consultation_lambdas": [
+    0,
+    0.01,
+    0.1,
+    1
+  ],
+  "conditions": [
+    "easy",
+    "recovery",
+    "friction_shift",
+    "damping_shift"
+  ],
+  "oracle_seeds": 4,
+  "threads": 4,
+  "bootstrap_samples": 2000
+}

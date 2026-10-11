@@ -1,0 +1,866 @@
+[
+  {
+    "scenario": "open",
+    "shots": 0,
+    "method": "baseline",
+    "n": 60,
+    "success": 0.55,
+    "steps": 41.88333333333333,
+    "success_weighted_path_efficiency": 0.5317460317460317,
+    "inference_seconds": 0.01028317203745246,
+    "mean_latency_seconds": 0.0002437468101816801,
+    "p95_latency_seconds": 0.00031185290620972705,
+    "blocked_moves": 29.916666666666668,
+    "success_by_training_seed": [
+      0.55,
+      0.55,
+      0.55
+    ]
+  },
+  {
+    "scenario": "open",
+    "shots": 0,
+    "method": "world_model_a",
+    "n": 60,
+    "success": 1.0,
+    "steps": 9.633333333333333,
+    "success_weighted_path_efficiency": 0.9859259259259259,
+    "inference_seconds": 0.08825089920622607,
+    "mean_latency_seconds": 0.009067546354354262,
+    "p95_latency_seconds": 0.010355228958651423,
+    "blocked_moves": 0.0,
+    "success_by_training_seed": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "scenario": "open",
+    "shots": 0,
+    "method": "world_model_b",
+    "n": 60,
+    "success": 1.0,
+    "steps": 9.8,
+    "success_weighted_path_efficiency": 0.9792592592592594,
+    "inference_seconds": 0.026045564903567235,
+    "mean_latency_seconds": 0.002629946391425092,
+    "p95_latency_seconds": 0.0030471889721229673,
+    "blocked_moves": 0.13333333333333333,
+    "success_by_training_seed": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "scenario": "open",
+    "shots": 0,
+    "method": "direct_scorer",
+    "n": 60,
+    "success": 0.5833333333333334,
+    "steps": 39.266666666666666,
+    "success_weighted_path_efficiency": 0.5625462962962964,
+    "inference_seconds": 0.0882710450484107,
+    "mean_latency_seconds": 0.002211342127334158,
+    "p95_latency_seconds": 0.002681209159394105,
+    "blocked_moves": 14.633333333333333,
+    "success_by_training_seed": [
+      0.55,
+      0.7,
+      0.5
+    ]
+  },
+  {
+    "scenario": "open",
+    "shots": 1,
+    "method": "baseline",
+    "n": 60,
+    "success": 0.6,
+    "steps": 38.416666666666664,
+    "success_weighted_path_efficiency": 0.5713468013468013,
+    "inference_seconds": 0.00875376306163768,
+    "mean_latency_seconds": 0.00023230580911330536,
+    "p95_latency_seconds": 0.0002881117545378704,
+    "blocked_moves": 22.6,
+    "success_by_training_seed": [
+      0.55,
+      0.8,
+      0.45
+    ]
+  },
+  {
+    "scenario": "open",
+    "shots": 1,
+    "method": "world_model_a",
+    "n": 60,
+    "success": 0.9333333333333333,
+    "steps": 15.5,
+    "success_weighted_path_efficiency": 0.871247137953127,
+    "inference_seconds": 0.1354133227529625,
+    "mean_latency_seconds": 0.008693714547887792,
+    "p95_latency_seconds": 0.009919978868371494,
+    "blocked_moves": 3.15,
+    "success_by_training_seed": [
+      0.85,
+      0.95,
+      1.0
+    ]
+  },
+  {
+    "scenario": "open",
+    "shots": 1,
+    "method": "world_model_b",
+    "n": 60,
+    "success": 0.9666666666666667,
+    "steps": 14.533333333333333,
+    "success_weighted_path_efficiency": 0.8629386816886817,
+    "inference_seconds": 0.03713533192252119,
+    "mean_latency_seconds": 0.0025617526758209353,
+    "p95_latency_seconds": 0.0029518320977998274,
+    "blocked_moves": 2.533333333333333,
+    "success_by_training_seed": [
+      0.9,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "scenario": "open",
+    "shots": 1,
+    "method": "direct_scorer",
+    "n": 60,
+    "success": 0.6,
+    "steps": 40.766666666666666,
+    "success_weighted_path_efficiency": 0.5001678709028513,
+    "inference_seconds": 0.08267392253813645,
+    "mean_latency_seconds": 0.0020574148346825926,
+    "p95_latency_seconds": 0.0025148961522306005,
+    "blocked_moves": 14.066666666666666,
+    "success_by_training_seed": [
+      0.5,
+      0.65,
+      0.65
+    ]
+  },
+  {
+    "scenario": "open",
+    "shots": 5,
+    "method": "baseline",
+    "n": 60,
+    "success": 0.55,
+    "steps": 41.45,
+    "success_weighted_path_efficiency": 0.5433333333333333,
+    "inference_seconds": 0.009355255061139663,
+    "mean_latency_seconds": 0.00022843971370768078,
+    "p95_latency_seconds": 0.00027872799895703796,
+    "blocked_moves": 27.116666666666667,
+    "success_by_training_seed": [
+      0.5,
+      0.55,
+      0.6
+    ]
+  },
+  {
+    "scenario": "open",
+    "shots": 5,
+    "method": "world_model_a",
+    "n": 60,
+    "success": 0.9833333333333333,
+    "steps": 13.016666666666667,
+    "success_weighted_path_efficiency": 0.9124391438168528,
+    "inference_seconds": 0.10971184343410036,
+    "mean_latency_seconds": 0.008434178691620027,
+    "p95_latency_seconds": 0.00937088880455121,
+    "blocked_moves": 1.8,
+    "success_by_training_seed": [
+      1.0,
+      1.0,
+      0.95
+    ]
+  },
+  {
+    "scenario": "open",
+    "shots": 5,
+    "method": "world_model_b",
+    "n": 60,
+    "success": 0.9666666666666667,
+    "steps": 13.7,
+    "success_weighted_path_efficiency": 0.9054897607266028,
+    "inference_seconds": 0.03373904100929697,
+    "mean_latency_seconds": 0.00248727468693801,
+    "p95_latency_seconds": 0.0028042630106210717,
+    "blocked_moves": 1.8666666666666667,
+    "success_by_training_seed": [
+      1.0,
+      1.0,
+      0.9
+    ]
+  },
+  {
+    "scenario": "open",
+    "shots": 5,
+    "method": "direct_scorer",
+    "n": 60,
+    "success": 0.5833333333333334,
+    "steps": 40.85,
+    "success_weighted_path_efficiency": 0.5356096612643102,
+    "inference_seconds": 0.08086169455200434,
+    "mean_latency_seconds": 0.0019972677593162865,
+    "p95_latency_seconds": 0.0023862702857392532,
+    "blocked_moves": 14.383333333333333,
+    "success_by_training_seed": [
+      0.45,
+      0.7,
+      0.6
+    ]
+  },
+  {
+    "scenario": "detour",
+    "shots": 0,
+    "method": "baseline",
+    "n": 60,
+    "success": 0.4166666666666667,
+    "steps": 56.78333333333333,
+    "success_weighted_path_efficiency": 0.33253353577502526,
+    "inference_seconds": 0.013234904687851667,
+    "mean_latency_seconds": 0.0002322807706115452,
+    "p95_latency_seconds": 0.00029713318838427464,
+    "blocked_moves": 21.0,
+    "success_by_training_seed": [
+      0.2,
+      0.35,
+      0.7
+    ]
+  },
+  {
+    "scenario": "detour",
+    "shots": 0,
+    "method": "world_model_a",
+    "n": 60,
+    "success": 0.35,
+    "steps": 61.3,
+    "success_weighted_path_efficiency": 0.27221207352672866,
+    "inference_seconds": 0.5381792498907695,
+    "mean_latency_seconds": 0.008784818009016981,
+    "p95_latency_seconds": 0.010703542216215283,
+    "blocked_moves": 20.966666666666665,
+    "success_by_training_seed": [
+      0.3,
+      0.35,
+      0.4
+    ]
+  },
+  {
+    "scenario": "detour",
+    "shots": 0,
+    "method": "world_model_b",
+    "n": 60,
+    "success": 0.21666666666666667,
+    "steps": 71.36666666666666,
+    "success_weighted_path_efficiency": 0.13197711267605633,
+    "inference_seconds": 0.18835033443756402,
+    "mean_latency_seconds": 0.002657391666533659,
+    "p95_latency_seconds": 0.0034607717860490076,
+    "blocked_moves": 17.25,
+    "success_by_training_seed": [
+      0.15,
+      0.1,
+      0.4
+    ]
+  },
+  {
+    "scenario": "detour",
+    "shots": 0,
+    "method": "direct_scorer",
+    "n": 60,
+    "success": 0.26666666666666666,
+    "steps": 70.35,
+    "success_weighted_path_efficiency": 0.12701840114287988,
+    "inference_seconds": 0.14852529956648747,
+    "mean_latency_seconds": 0.002103748873458712,
+    "p95_latency_seconds": 0.002632354826200754,
+    "blocked_moves": 18.55,
+    "success_by_training_seed": [
+      0.1,
+      0.15,
+      0.55
+    ]
+  },
+  {
+    "scenario": "detour",
+    "shots": 1,
+    "method": "baseline",
+    "n": 60,
+    "success": 0.5333333333333333,
+    "steps": 49.95,
+    "success_weighted_path_efficiency": 0.4240509400841916,
+    "inference_seconds": 0.011728439309323827,
+    "mean_latency_seconds": 0.00023429393028213708,
+    "p95_latency_seconds": 0.00029647746666645007,
+    "blocked_moves": 12.716666666666667,
+    "success_by_training_seed": [
+      0.45,
+      0.4,
+      0.75
+    ]
+  },
+  {
+    "scenario": "detour",
+    "shots": 1,
+    "method": "world_model_a",
+    "n": 60,
+    "success": 0.4,
+    "steps": 58.75,
+    "success_weighted_path_efficiency": 0.33346168790402136,
+    "inference_seconds": 0.5225171469928076,
+    "mean_latency_seconds": 0.008914320008686144,
+    "p95_latency_seconds": 0.010741393518013261,
+    "blocked_moves": 18.083333333333332,
+    "success_by_training_seed": [
+      0.45,
+      0.4,
+      0.35
+    ]
+  },
+  {
+    "scenario": "detour",
+    "shots": 1,
+    "method": "world_model_b",
+    "n": 60,
+    "success": 0.35,
+    "steps": 63.333333333333336,
+    "success_weighted_path_efficiency": 0.23066875612330578,
+    "inference_seconds": 0.1681249493577828,
+    "mean_latency_seconds": 0.0026311492411277243,
+    "p95_latency_seconds": 0.0032264048885554068,
+    "blocked_moves": 18.4,
+    "success_by_training_seed": [
+      0.4,
+      0.35,
+      0.3
+    ]
+  },
+  {
+    "scenario": "detour",
+    "shots": 1,
+    "method": "direct_scorer",
+    "n": 60,
+    "success": 0.26666666666666666,
+    "steps": 69.2,
+    "success_weighted_path_efficiency": 0.14372926958902343,
+    "inference_seconds": 0.14832980521023273,
+    "mean_latency_seconds": 0.002167793030679392,
+    "p95_latency_seconds": 0.0026979394940038525,
+    "blocked_moves": 20.85,
+    "success_by_training_seed": [
+      0.15,
+      0.25,
+      0.4
+    ]
+  },
+  {
+    "scenario": "detour",
+    "shots": 5,
+    "method": "baseline",
+    "n": 60,
+    "success": 0.5666666666666667,
+    "steps": 48.1,
+    "success_weighted_path_efficiency": 0.4635266321677372,
+    "inference_seconds": 0.011381856196870406,
+    "mean_latency_seconds": 0.00024243825682895666,
+    "p95_latency_seconds": 0.0003059726619782547,
+    "blocked_moves": 24.466666666666665,
+    "success_by_training_seed": [
+      0.35,
+      0.55,
+      0.8
+    ]
+  },
+  {
+    "scenario": "detour",
+    "shots": 5,
+    "method": "world_model_a",
+    "n": 60,
+    "success": 0.45,
+    "steps": 56.03333333333333,
+    "success_weighted_path_efficiency": 0.3612598156926498,
+    "inference_seconds": 0.5036782329591613,
+    "mean_latency_seconds": 0.009002121694674715,
+    "p95_latency_seconds": 0.010891427062451841,
+    "blocked_moves": 22.283333333333335,
+    "success_by_training_seed": [
+      0.45,
+      0.45,
+      0.45
+    ]
+  },
+  {
+    "scenario": "detour",
+    "shots": 5,
+    "method": "world_model_b",
+    "n": 60,
+    "success": 0.4166666666666667,
+    "steps": 59.85,
+    "success_weighted_path_efficiency": 0.28525266866308574,
+    "inference_seconds": 0.15768720324461658,
+    "mean_latency_seconds": 0.0026673185595090503,
+    "p95_latency_seconds": 0.0032635960619275765,
+    "blocked_moves": 20.666666666666668,
+    "success_by_training_seed": [
+      0.25,
+      0.4,
+      0.6
+    ]
+  },
+  {
+    "scenario": "detour",
+    "shots": 5,
+    "method": "direct_scorer",
+    "n": 60,
+    "success": 0.26666666666666666,
+    "steps": 67.85,
+    "success_weighted_path_efficiency": 0.17868938054353178,
+    "inference_seconds": 0.14896818057944378,
+    "mean_latency_seconds": 0.0021955009789454928,
+    "p95_latency_seconds": 0.002737020136167605,
+    "blocked_moves": 20.833333333333332,
+    "success_by_training_seed": [
+      0.1,
+      0.3,
+      0.4
+    ]
+  },
+  {
+    "scenario": "key_door",
+    "shots": 0,
+    "method": "baseline",
+    "n": 60,
+    "success": 0.11666666666666667,
+    "steps": 72.66666666666667,
+    "success_weighted_path_efficiency": 0.08283212560386473,
+    "inference_seconds": 0.017896848373735945,
+    "mean_latency_seconds": 0.00024745445602568437,
+    "p95_latency_seconds": 0.00032194183596099407,
+    "blocked_moves": 15.25,
+    "success_by_training_seed": [
+      0.15,
+      0.1,
+      0.1
+    ]
+  },
+  {
+    "scenario": "key_door",
+    "shots": 0,
+    "method": "world_model_a",
+    "n": 60,
+    "success": 0.75,
+    "steps": 38.7,
+    "success_weighted_path_efficiency": 0.5666076972674216,
+    "inference_seconds": 0.3727307279283802,
+    "mean_latency_seconds": 0.009542535380642737,
+    "p95_latency_seconds": 0.011675890825378397,
+    "blocked_moves": 10.666666666666666,
+    "success_by_training_seed": [
+      0.7,
+      0.8,
+      0.75
+    ]
+  },
+  {
+    "scenario": "key_door",
+    "shots": 0,
+    "method": "world_model_b",
+    "n": 60,
+    "success": 0.6666666666666666,
+    "steps": 44.13333333333333,
+    "success_weighted_path_efficiency": 0.4713009723793809,
+    "inference_seconds": 0.13204464990024764,
+    "mean_latency_seconds": 0.0029561293102160417,
+    "p95_latency_seconds": 0.003814928301144391,
+    "blocked_moves": 7.916666666666667,
+    "success_by_training_seed": [
+      0.65,
+      0.75,
+      0.6
+    ]
+  },
+  {
+    "scenario": "key_door",
+    "shots": 0,
+    "method": "direct_scorer",
+    "n": 60,
+    "success": 0.16666666666666666,
+    "steps": 71.68333333333334,
+    "success_weighted_path_efficiency": 0.10500180487498258,
+    "inference_seconds": 0.1680961770626406,
+    "mean_latency_seconds": 0.002354226779449781,
+    "p95_latency_seconds": 0.003010699773828188,
+    "blocked_moves": 11.766666666666667,
+    "success_by_training_seed": [
+      0.25,
+      0.15,
+      0.1
+    ]
+  },
+  {
+    "scenario": "key_door",
+    "shots": 1,
+    "method": "baseline",
+    "n": 60,
+    "success": 0.15,
+    "steps": 70.88333333333334,
+    "success_weighted_path_efficiency": 0.0994074200653148,
+    "inference_seconds": 0.017049745687594018,
+    "mean_latency_seconds": 0.00023943351110020583,
+    "p95_latency_seconds": 0.00030535484896972783,
+    "blocked_moves": 20.233333333333334,
+    "success_by_training_seed": [
+      0.25,
+      0.1,
+      0.1
+    ]
+  },
+  {
+    "scenario": "key_door",
+    "shots": 1,
+    "method": "world_model_a",
+    "n": 60,
+    "success": 0.7333333333333333,
+    "steps": 38.083333333333336,
+    "success_weighted_path_efficiency": 0.552883418674261,
+    "inference_seconds": 0.3565255747642368,
+    "mean_latency_seconds": 0.009325150871444877,
+    "p95_latency_seconds": 0.011125915768401079,
+    "blocked_moves": 9.416666666666666,
+    "success_by_training_seed": [
+      0.6,
+      0.9,
+      0.7
+    ]
+  },
+  {
+    "scenario": "key_door",
+    "shots": 1,
+    "method": "world_model_b",
+    "n": 60,
+    "success": 0.6166666666666667,
+    "steps": 48.4,
+    "success_weighted_path_efficiency": 0.3993746012769464,
+    "inference_seconds": 0.1332461684476584,
+    "mean_latency_seconds": 0.0027606812785768253,
+    "p95_latency_seconds": 0.003362686332936088,
+    "blocked_moves": 11.7,
+    "success_by_training_seed": [
+      0.55,
+      0.75,
+      0.55
+    ]
+  },
+  {
+    "scenario": "key_door",
+    "shots": 1,
+    "method": "direct_scorer",
+    "n": 60,
+    "success": 0.16666666666666666,
+    "steps": 71.03333333333333,
+    "success_weighted_path_efficiency": 0.0962425207090642,
+    "inference_seconds": 0.1560323256223152,
+    "mean_latency_seconds": 0.0022016426733858555,
+    "p95_latency_seconds": 0.0028037826383175953,
+    "blocked_moves": 10.616666666666667,
+    "success_by_training_seed": [
+      0.1,
+      0.35,
+      0.05
+    ]
+  },
+  {
+    "scenario": "key_door",
+    "shots": 5,
+    "method": "baseline",
+    "n": 60,
+    "success": 0.11666666666666667,
+    "steps": 73.0,
+    "success_weighted_path_efficiency": 0.06644584947216527,
+    "inference_seconds": 0.017315821380664904,
+    "mean_latency_seconds": 0.00023757962291513183,
+    "p95_latency_seconds": 0.0002997594039576749,
+    "blocked_moves": 17.433333333333334,
+    "success_by_training_seed": [
+      0.15,
+      0.1,
+      0.1
+    ]
+  },
+  {
+    "scenario": "key_door",
+    "shots": 5,
+    "method": "world_model_a",
+    "n": 60,
+    "success": 0.6833333333333333,
+    "steps": 42.0,
+    "success_weighted_path_efficiency": 0.5079807718057968,
+    "inference_seconds": 0.37658586776815356,
+    "mean_latency_seconds": 0.008950107198062334,
+    "p95_latency_seconds": 0.010867948951975752,
+    "blocked_moves": 9.8,
+    "success_by_training_seed": [
+      0.65,
+      0.7,
+      0.7
+    ]
+  },
+  {
+    "scenario": "key_door",
+    "shots": 5,
+    "method": "world_model_b",
+    "n": 60,
+    "success": 0.5666666666666667,
+    "steps": 49.56666666666667,
+    "success_weighted_path_efficiency": 0.39358809927156924,
+    "inference_seconds": 0.1320989323159059,
+    "mean_latency_seconds": 0.0026662280453505,
+    "p95_latency_seconds": 0.0032292608575274543,
+    "blocked_moves": 10.266666666666667,
+    "success_by_training_seed": [
+      0.5,
+      0.65,
+      0.55
+    ]
+  },
+  {
+    "scenario": "key_door",
+    "shots": 5,
+    "method": "direct_scorer",
+    "n": 60,
+    "success": 0.11666666666666667,
+    "steps": 73.26666666666667,
+    "success_weighted_path_efficiency": 0.0777519083171257,
+    "inference_seconds": 0.15722708615163963,
+    "mean_latency_seconds": 0.0021526179268196344,
+    "p95_latency_seconds": 0.0026929708228756984,
+    "blocked_moves": 20.966666666666665,
+    "success_by_training_seed": [
+      0.1,
+      0.2,
+      0.05
+    ]
+  },
+  {
+    "scenario": "rotated_controls",
+    "shots": 0,
+    "method": "baseline",
+    "n": 60,
+    "success": 0.0,
+    "steps": 80.0,
+    "success_weighted_path_efficiency": 0.0,
+    "inference_seconds": 0.018135493155568838,
+    "mean_latency_seconds": 0.00022669366444461045,
+    "p95_latency_seconds": 0.0002896043580646316,
+    "blocked_moves": 77.41666666666667,
+    "success_by_training_seed": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "rotated_controls",
+    "shots": 0,
+    "method": "world_model_a",
+    "n": 60,
+    "success": 0.0,
+    "steps": 80.0,
+    "success_weighted_path_efficiency": 0.0,
+    "inference_seconds": 0.7053675017785281,
+    "mean_latency_seconds": 0.008817093772231601,
+    "p95_latency_seconds": 0.011058931190830967,
+    "blocked_moves": 76.41666666666667,
+    "success_by_training_seed": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "rotated_controls",
+    "shots": 0,
+    "method": "world_model_b",
+    "n": 60,
+    "success": 0.0,
+    "steps": 80.0,
+    "success_weighted_path_efficiency": 0.0,
+    "inference_seconds": 0.2067098158877343,
+    "mean_latency_seconds": 0.0025838726985966793,
+    "p95_latency_seconds": 0.0032610948950362708,
+    "blocked_moves": 75.6,
+    "success_by_training_seed": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "rotated_controls",
+    "shots": 0,
+    "method": "direct_scorer",
+    "n": 60,
+    "success": 0.0,
+    "steps": 80.0,
+    "success_weighted_path_efficiency": 0.0,
+    "inference_seconds": 0.1679352493956685,
+    "mean_latency_seconds": 0.0020991906174458565,
+    "p95_latency_seconds": 0.0027023450890555976,
+    "blocked_moves": 75.51666666666667,
+    "success_by_training_seed": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "rotated_controls",
+    "shots": 1,
+    "method": "baseline",
+    "n": 60,
+    "success": 0.0,
+    "steps": 80.0,
+    "success_weighted_path_efficiency": 0.0,
+    "inference_seconds": 0.018272948311641814,
+    "mean_latency_seconds": 0.00022841185389552266,
+    "p95_latency_seconds": 0.0002921998826786876,
+    "blocked_moves": 78.0,
+    "success_by_training_seed": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "rotated_controls",
+    "shots": 1,
+    "method": "world_model_a",
+    "n": 60,
+    "success": 0.0,
+    "steps": 80.0,
+    "success_weighted_path_efficiency": 0.0,
+    "inference_seconds": 0.698125428163136,
+    "mean_latency_seconds": 0.0087265678520392,
+    "p95_latency_seconds": 0.010896732825785875,
+    "blocked_moves": 67.2,
+    "success_by_training_seed": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "rotated_controls",
+    "shots": 1,
+    "method": "world_model_b",
+    "n": 60,
+    "success": 0.0,
+    "steps": 80.0,
+    "success_weighted_path_efficiency": 0.0,
+    "inference_seconds": 0.20306994436929623,
+    "mean_latency_seconds": 0.002538374304616203,
+    "p95_latency_seconds": 0.0031796897916744147,
+    "blocked_moves": 63.86666666666667,
+    "success_by_training_seed": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "rotated_controls",
+    "shots": 1,
+    "method": "direct_scorer",
+    "n": 60,
+    "success": 0.0,
+    "steps": 80.0,
+    "success_weighted_path_efficiency": 0.0,
+    "inference_seconds": 0.17175524725268285,
+    "mean_latency_seconds": 0.0021469405906585355,
+    "p95_latency_seconds": 0.002783177304081619,
+    "blocked_moves": 66.16666666666667,
+    "success_by_training_seed": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "rotated_controls",
+    "shots": 5,
+    "method": "baseline",
+    "n": 60,
+    "success": 0.0,
+    "steps": 80.0,
+    "success_weighted_path_efficiency": 0.0,
+    "inference_seconds": 0.018672431617354355,
+    "mean_latency_seconds": 0.0002334053952169294,
+    "p95_latency_seconds": 0.0002976843194725613,
+    "blocked_moves": 77.03333333333333,
+    "success_by_training_seed": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "rotated_controls",
+    "shots": 5,
+    "method": "world_model_a",
+    "n": 60,
+    "success": 0.0,
+    "steps": 80.0,
+    "success_weighted_path_efficiency": 0.0,
+    "inference_seconds": 0.6926216345125188,
+    "mean_latency_seconds": 0.008657770431406486,
+    "p95_latency_seconds": 0.010769238162320106,
+    "blocked_moves": 63.96666666666667,
+    "success_by_training_seed": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "rotated_controls",
+    "shots": 5,
+    "method": "world_model_b",
+    "n": 60,
+    "success": 0.016666666666666666,
+    "steps": 79.51666666666667,
+    "success_weighted_path_efficiency": 0.005882352941176471,
+    "inference_seconds": 0.20361172429596383,
+    "mean_latency_seconds": 0.0025607667485703987,
+    "p95_latency_seconds": 0.0032191063680996495,
+    "blocked_moves": 63.8,
+    "success_by_training_seed": [
+      0.0,
+      0.05,
+      0.0
+    ]
+  },
+  {
+    "scenario": "rotated_controls",
+    "shots": 5,
+    "method": "direct_scorer",
+    "n": 60,
+    "success": 0.0,
+    "steps": 80.0,
+    "success_weighted_path_efficiency": 0.0,
+    "inference_seconds": 0.16846813104736308,
+    "mean_latency_seconds": 0.002105851638092038,
+    "p95_latency_seconds": 0.0026347346712524687,
+    "blocked_moves": 65.65,
+    "success_by_training_seed": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+]

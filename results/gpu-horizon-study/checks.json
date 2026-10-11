@@ -1,0 +1,11 @@
+{
+  "cuda": true,
+  "geometry_reward_error": 4.440892098500626e-16,
+  "candidate_zero_preserved": true,
+  "masked_future_actions": true,
+  "oracle_replay_exact": true,
+  "physics_max_coordinate_change": {
+    "friction_shift": 15.422317504882812,
+    "damping_shift": 122.04905700683594
+  }
+}

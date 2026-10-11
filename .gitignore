@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.py[cod]
+.cache/
+outputs/
+.DS_Store
+# Keep manuscript files out of the public code repository.
+/paper.*
+/corl_2026.sty
+/corlabbrvnat.bst

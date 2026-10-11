@@ -1,0 +1,968 @@
+[
+  {
+    "seed": 11,
+    "shots": 0,
+    "metrics": {
+      "baseline": {
+        "loss": 0.5711735010425513,
+        "examples": 2569,
+        "parameters": 38680,
+        "training_wall_seconds": 0.8590812478214502,
+        "training_cpu_seconds": 0.8585404130000001
+      },
+      "world_model_a": {
+        "loss": 0.01702323498522646,
+        "examples": 2569,
+        "parameters": 36741,
+        "training_wall_seconds": 0.6909744031727314,
+        "training_cpu_seconds": 0.6903899189999994
+      },
+      "world_model_b": {
+        "loss": 0.004048094841156411,
+        "examples": 2569,
+        "parameters": 40204,
+        "training_wall_seconds": 0.7648596670478582,
+        "training_cpu_seconds": 0.7612702650000003
+      },
+      "direct_scorer": {
+        "loss": 0.0015030544651429354,
+        "examples": 2569,
+        "parameters": 38785,
+        "training_wall_seconds": 0.7960100714117289,
+        "training_cpu_seconds": 0.7953570820000007
+      }
+    }
+  },
+  {
+    "seed": 11,
+    "scenario": "open",
+    "shots": 1,
+    "adaptation_windows": 11,
+    "metrics": {
+      "baseline": {
+        "loss": 0.32438318983993336,
+        "examples": 995,
+        "parameters": 38680,
+        "training_wall_seconds": 0.211451874114573,
+        "training_cpu_seconds": 0.2111377559999994
+      },
+      "world_model_a": {
+        "loss": 0.002403121159397927,
+        "examples": 995,
+        "parameters": 36741,
+        "training_wall_seconds": 0.2074653059244156,
+        "training_cpu_seconds": 0.2047734349999999
+      },
+      "world_model_b": {
+        "loss": 0.002062325345717333,
+        "examples": 995,
+        "parameters": 40204,
+        "training_wall_seconds": 0.20751160383224487,
+        "training_cpu_seconds": 0.20634993900000254
+      },
+      "direct_scorer": {
+        "loss": 0.0002823174907708887,
+        "examples": 995,
+        "parameters": 38785,
+        "training_wall_seconds": 0.20977906789630651,
+        "training_cpu_seconds": 0.20963487699999916
+      }
+    }
+  },
+  {
+    "seed": 11,
+    "scenario": "open",
+    "shots": 5,
+    "adaptation_windows": 48,
+    "metrics": {
+      "baseline": {
+        "loss": 0.3502346301565365,
+        "examples": 980,
+        "parameters": 38680,
+        "training_wall_seconds": 0.19315844867378473,
+        "training_cpu_seconds": 0.1929552490000006
+      },
+      "world_model_a": {
+        "loss": 0.002577259708956188,
+        "examples": 980,
+        "parameters": 36741,
+        "training_wall_seconds": 0.19512913562357426,
+        "training_cpu_seconds": 0.19455482899999765
+      },
+      "world_model_b": {
+        "loss": 0.002431987153784353,
+        "examples": 980,
+        "parameters": 40204,
+        "training_wall_seconds": 0.15873987786471844,
+        "training_cpu_seconds": 0.15861762999999485
+      },
+      "direct_scorer": {
+        "loss": 0.00030486610057592697,
+        "examples": 980,
+        "parameters": 38785,
+        "training_wall_seconds": 0.13649772852659225,
+        "training_cpu_seconds": 0.13645263699999788
+      }
+    }
+  },
+  {
+    "seed": 11,
+    "scenario": "detour",
+    "shots": 1,
+    "adaptation_windows": 18,
+    "metrics": {
+      "baseline": {
+        "loss": 0.4097428824790351,
+        "examples": 986,
+        "parameters": 38680,
+        "training_wall_seconds": 0.20489696599543095,
+        "training_cpu_seconds": 0.20449190300000453
+      },
+      "world_model_a": {
+        "loss": 0.0025467859098449743,
+        "examples": 986,
+        "parameters": 36741,
+        "training_wall_seconds": 0.15165127906948328,
+        "training_cpu_seconds": 0.1512167219999867
+      },
+      "world_model_b": {
+        "loss": 0.001806304868949203,
+        "examples": 986,
+        "parameters": 40204,
+        "training_wall_seconds": 0.1902635060250759,
+        "training_cpu_seconds": 0.18969647699999825
+      },
+      "direct_scorer": {
+        "loss": 0.0003011783015981324,
+        "examples": 986,
+        "parameters": 38785,
+        "training_wall_seconds": 0.18665272369980812,
+        "training_cpu_seconds": 0.1863298340000057
+      }
+    }
+  },
+  {
+    "seed": 11,
+    "scenario": "detour",
+    "shots": 5,
+    "adaptation_windows": 93,
+    "metrics": {
+      "baseline": {
+        "loss": 0.4541968016426798,
+        "examples": 965,
+        "parameters": 38680,
+        "training_wall_seconds": 0.20436122920364141,
+        "training_cpu_seconds": 0.20194656099999975
+      },
+      "world_model_a": {
+        "loss": 0.003136557391772307,
+        "examples": 965,
+        "parameters": 36741,
+        "training_wall_seconds": 0.18688439019024372,
+        "training_cpu_seconds": 0.18618857199999184
+      },
+      "world_model_b": {
+        "loss": 0.0023160707644654987,
+        "examples": 965,
+        "parameters": 40204,
+        "training_wall_seconds": 0.18834489583969116,
+        "training_cpu_seconds": 0.1860196639999998
+      },
+      "direct_scorer": {
+        "loss": 0.0003665826944489553,
+        "examples": 965,
+        "parameters": 38785,
+        "training_wall_seconds": 0.1726664612069726,
+        "training_cpu_seconds": 0.17213999999999885
+      }
+    }
+  },
+  {
+    "seed": 11,
+    "scenario": "key_door",
+    "shots": 1,
+    "adaptation_windows": 22,
+    "metrics": {
+      "baseline": {
+        "loss": 0.4676946030884254,
+        "examples": 984,
+        "parameters": 38680,
+        "training_wall_seconds": 0.17897506430745125,
+        "training_cpu_seconds": 0.1789318220000098
+      },
+      "world_model_a": {
+        "loss": 0.0023474320277147662,
+        "examples": 984,
+        "parameters": 36741,
+        "training_wall_seconds": 0.15203246381133795,
+        "training_cpu_seconds": 0.1519332060000238
+      },
+      "world_model_b": {
+        "loss": 0.0017282961152221372,
+        "examples": 984,
+        "parameters": 40204,
+        "training_wall_seconds": 0.14677680004388094,
+        "training_cpu_seconds": 0.14652258300000653
+      },
+      "direct_scorer": {
+        "loss": 0.0004211346662841828,
+        "examples": 984,
+        "parameters": 38785,
+        "training_wall_seconds": 0.13726232666522264,
+        "training_cpu_seconds": 0.1371968509999988
+      }
+    }
+  },
+  {
+    "seed": 11,
+    "scenario": "key_door",
+    "shots": 5,
+    "adaptation_windows": 92,
+    "metrics": {
+      "baseline": {
+        "loss": 0.48168156345685326,
+        "examples": 960,
+        "parameters": 38680,
+        "training_wall_seconds": 0.19143736269325018,
+        "training_cpu_seconds": 0.19138729999997395
+      },
+      "world_model_a": {
+        "loss": 0.002663082241391142,
+        "examples": 960,
+        "parameters": 36741,
+        "training_wall_seconds": 0.13401164300739765,
+        "training_cpu_seconds": 0.13401409299999045
+      },
+      "world_model_b": {
+        "loss": 0.0025989504375805456,
+        "examples": 960,
+        "parameters": 40204,
+        "training_wall_seconds": 0.14494492579251528,
+        "training_cpu_seconds": 0.14490199899998402
+      },
+      "direct_scorer": {
+        "loss": 0.0005578223732300103,
+        "examples": 960,
+        "parameters": 38785,
+        "training_wall_seconds": 0.15503844805061817,
+        "training_cpu_seconds": 0.15504046200001653
+      }
+    }
+  },
+  {
+    "seed": 11,
+    "scenario": "rotated_controls",
+    "shots": 1,
+    "adaptation_windows": 18,
+    "metrics": {
+      "baseline": {
+        "loss": 0.8219967191891544,
+        "examples": 986,
+        "parameters": 38680,
+        "training_wall_seconds": 0.1991972466930747,
+        "training_cpu_seconds": 0.19918216700000357
+      },
+      "world_model_a": {
+        "loss": 0.14729596570164388,
+        "examples": 986,
+        "parameters": 36741,
+        "training_wall_seconds": 0.1708701327443123,
+        "training_cpu_seconds": 0.17085504700000342
+      },
+      "world_model_b": {
+        "loss": 0.007937928049638112,
+        "examples": 986,
+        "parameters": 40204,
+        "training_wall_seconds": 0.1935492055490613,
+        "training_cpu_seconds": 0.19351918600000317
+      },
+      "direct_scorer": {
+        "loss": 0.00035650678243229265,
+        "examples": 986,
+        "parameters": 38785,
+        "training_wall_seconds": 0.17187795881181955,
+        "training_cpu_seconds": 0.17177152600001477
+      }
+    }
+  },
+  {
+    "seed": 11,
+    "scenario": "rotated_controls",
+    "shots": 5,
+    "adaptation_windows": 93,
+    "metrics": {
+      "baseline": {
+        "loss": 0.8708357306959715,
+        "examples": 965,
+        "parameters": 38680,
+        "training_wall_seconds": 0.18113842327147722,
+        "training_cpu_seconds": 0.17074171100000513
+      },
+      "world_model_a": {
+        "loss": 0.18592795246314509,
+        "examples": 965,
+        "parameters": 36741,
+        "training_wall_seconds": 0.14928057976067066,
+        "training_cpu_seconds": 0.14928355600000032
+      },
+      "world_model_b": {
+        "loss": 0.010677170056676,
+        "examples": 965,
+        "parameters": 40204,
+        "training_wall_seconds": 0.15739349834620953,
+        "training_cpu_seconds": 0.15681811499996456
+      },
+      "direct_scorer": {
+        "loss": 0.000507032761888318,
+        "examples": 965,
+        "parameters": 38785,
+        "training_wall_seconds": 0.14281332585960627,
+        "training_cpu_seconds": 0.14263261400003557
+      }
+    }
+  },
+  {
+    "seed": 22,
+    "shots": 0,
+    "metrics": {
+      "baseline": {
+        "loss": 0.5533965526788913,
+        "examples": 2438,
+        "parameters": 38680,
+        "training_wall_seconds": 0.7833555629476905,
+        "training_cpu_seconds": 0.7814441329999795
+      },
+      "world_model_a": {
+        "loss": 0.010082938589180123,
+        "examples": 2438,
+        "parameters": 36741,
+        "training_wall_seconds": 0.6866670418530703,
+        "training_cpu_seconds": 0.6866664559999549
+      },
+      "world_model_b": {
+        "loss": 0.0034183842974995324,
+        "examples": 2438,
+        "parameters": 40204,
+        "training_wall_seconds": 0.7695055343210697,
+        "training_cpu_seconds": 0.7694881850000002
+      },
+      "direct_scorer": {
+        "loss": 0.0013309181896110935,
+        "examples": 2438,
+        "parameters": 38785,
+        "training_wall_seconds": 0.7322129188105464,
+        "training_cpu_seconds": 0.732182167000019
+      }
+    }
+  },
+  {
+    "seed": 22,
+    "scenario": "open",
+    "shots": 1,
+    "adaptation_windows": 7,
+    "metrics": {
+      "baseline": {
+        "loss": 0.3528802982543632,
+        "examples": 997,
+        "parameters": 38680,
+        "training_wall_seconds": 0.18145390693098307,
+        "training_cpu_seconds": 0.18144428400000834
+      },
+      "world_model_a": {
+        "loss": 0.0017001256378229293,
+        "examples": 997,
+        "parameters": 36741,
+        "training_wall_seconds": 0.1734002297744155,
+        "training_cpu_seconds": 0.17339043300000867
+      },
+      "world_model_b": {
+        "loss": 0.0015590338388116005,
+        "examples": 997,
+        "parameters": 40204,
+        "training_wall_seconds": 0.19014600478112698,
+        "training_cpu_seconds": 0.18986029799998505
+      },
+      "direct_scorer": {
+        "loss": 0.00043267892604019335,
+        "examples": 997,
+        "parameters": 38785,
+        "training_wall_seconds": 0.1617566430941224,
+        "training_cpu_seconds": 0.16175855000000183
+      }
+    }
+  },
+  {
+    "seed": 22,
+    "scenario": "open",
+    "shots": 5,
+    "adaptation_windows": 43,
+    "metrics": {
+      "baseline": {
+        "loss": 0.35342875628407666,
+        "examples": 973,
+        "parameters": 38680,
+        "training_wall_seconds": 0.2021690346300602,
+        "training_cpu_seconds": 0.20190714199998183
+      },
+      "world_model_a": {
+        "loss": 0.0016932007593446375,
+        "examples": 973,
+        "parameters": 36741,
+        "training_wall_seconds": 0.1496048104017973,
+        "training_cpu_seconds": 0.14960701299997936
+      },
+      "world_model_b": {
+        "loss": 0.002282434791247078,
+        "examples": 973,
+        "parameters": 40204,
+        "training_wall_seconds": 0.15219733491539955,
+        "training_cpu_seconds": 0.15209769299997333
+      },
+      "direct_scorer": {
+        "loss": 0.0004879907463923219,
+        "examples": 973,
+        "parameters": 38785,
+        "training_wall_seconds": 0.14706168696284294,
+        "training_cpu_seconds": 0.14674007799999345
+      }
+    }
+  },
+  {
+    "seed": 22,
+    "scenario": "detour",
+    "shots": 1,
+    "adaptation_windows": 24,
+    "metrics": {
+      "baseline": {
+        "loss": 0.38249425182537156,
+        "examples": 980,
+        "parameters": 38680,
+        "training_wall_seconds": 0.20962008833885193,
+        "training_cpu_seconds": 0.2096185769999579
+      },
+      "world_model_a": {
+        "loss": 0.0016446659636056545,
+        "examples": 980,
+        "parameters": 36741,
+        "training_wall_seconds": 0.1795681919902563,
+        "training_cpu_seconds": 0.1786987849999946
+      },
+      "world_model_b": {
+        "loss": 0.0015430029058752924,
+        "examples": 980,
+        "parameters": 40204,
+        "training_wall_seconds": 0.19157632254064083,
+        "training_cpu_seconds": 0.1910414810000134
+      },
+      "direct_scorer": {
+        "loss": 0.00044448563629495243,
+        "examples": 980,
+        "parameters": 38785,
+        "training_wall_seconds": 0.1897917790338397,
+        "training_cpu_seconds": 0.189704211999981
+      }
+    }
+  },
+  {
+    "seed": 22,
+    "scenario": "detour",
+    "shots": 5,
+    "adaptation_windows": 101,
+    "metrics": {
+      "baseline": {
+        "loss": 0.45076078756720617,
+        "examples": 904,
+        "parameters": 38680,
+        "training_wall_seconds": 0.17246799729764462,
+        "training_cpu_seconds": 0.17239191099997697
+      },
+      "world_model_a": {
+        "loss": 0.001986710916157911,
+        "examples": 904,
+        "parameters": 36741,
+        "training_wall_seconds": 0.13760478142648935,
+        "training_cpu_seconds": 0.13750529999998662
+      },
+      "world_model_b": {
+        "loss": 0.00239167149607257,
+        "examples": 904,
+        "parameters": 40204,
+        "training_wall_seconds": 0.13958501536399126,
+        "training_cpu_seconds": 0.13934398800000736
+      },
+      "direct_scorer": {
+        "loss": 0.0005127851700871787,
+        "examples": 904,
+        "parameters": 38785,
+        "training_wall_seconds": 0.1461566649377346,
+        "training_cpu_seconds": 0.14606821699999273
+      }
+    }
+  },
+  {
+    "seed": 22,
+    "scenario": "key_door",
+    "shots": 1,
+    "adaptation_windows": 9,
+    "metrics": {
+      "baseline": {
+        "loss": 0.4115751439602531,
+        "examples": 995,
+        "parameters": 38680,
+        "training_wall_seconds": 0.2184997582808137,
+        "training_cpu_seconds": 0.21531146600000284
+      },
+      "world_model_a": {
+        "loss": 0.0016949183016257295,
+        "examples": 995,
+        "parameters": 36741,
+        "training_wall_seconds": 0.15077623259276152,
+        "training_cpu_seconds": 0.15071209600000657
+      },
+      "world_model_b": {
+        "loss": 0.0016392579455462158,
+        "examples": 995,
+        "parameters": 40204,
+        "training_wall_seconds": 0.16782068833708763,
+        "training_cpu_seconds": 0.1678124519999642
+      },
+      "direct_scorer": {
+        "loss": 0.0005627304399222247,
+        "examples": 995,
+        "parameters": 38785,
+        "training_wall_seconds": 0.163515230640769,
+        "training_cpu_seconds": 0.16350204000002577
+      }
+    }
+  },
+  {
+    "seed": 22,
+    "scenario": "key_door",
+    "shots": 5,
+    "adaptation_windows": 68,
+    "metrics": {
+      "baseline": {
+        "loss": 0.46395182511845573,
+        "examples": 976,
+        "parameters": 38680,
+        "training_wall_seconds": 0.18460302893072367,
+        "training_cpu_seconds": 0.1845515809999938
+      },
+      "world_model_a": {
+        "loss": 0.0015946496736075058,
+        "examples": 976,
+        "parameters": 36741,
+        "training_wall_seconds": 0.16065427009016275,
+        "training_cpu_seconds": 0.15881812499998205
+      },
+      "world_model_b": {
+        "loss": 0.0023392033076188603,
+        "examples": 976,
+        "parameters": 40204,
+        "training_wall_seconds": 0.16511096060276031,
+        "training_cpu_seconds": 0.1651126690000524
+      },
+      "direct_scorer": {
+        "loss": 0.001058810064187426,
+        "examples": 976,
+        "parameters": 38785,
+        "training_wall_seconds": 0.16132356878370047,
+        "training_cpu_seconds": 0.16129983899998024
+      }
+    }
+  },
+  {
+    "seed": 22,
+    "scenario": "rotated_controls",
+    "shots": 1,
+    "adaptation_windows": 24,
+    "metrics": {
+      "baseline": {
+        "loss": 0.7676041841506958,
+        "examples": 980,
+        "parameters": 38680,
+        "training_wall_seconds": 0.18397979717701674,
+        "training_cpu_seconds": 0.18383982599999626
+      },
+      "world_model_a": {
+        "loss": 0.17863457798957824,
+        "examples": 980,
+        "parameters": 36741,
+        "training_wall_seconds": 0.13770172279328108,
+        "training_cpu_seconds": 0.13754096700000673
+      },
+      "world_model_b": {
+        "loss": 0.00947579394417758,
+        "examples": 980,
+        "parameters": 40204,
+        "training_wall_seconds": 0.14473525993525982,
+        "training_cpu_seconds": 0.14464090000001306
+      },
+      "direct_scorer": {
+        "loss": 0.0004235957889361497,
+        "examples": 980,
+        "parameters": 38785,
+        "training_wall_seconds": 0.14496618509292603,
+        "training_cpu_seconds": 0.13767610700000432
+      }
+    }
+  },
+  {
+    "seed": 22,
+    "scenario": "rotated_controls",
+    "shots": 5,
+    "adaptation_windows": 101,
+    "metrics": {
+      "baseline": {
+        "loss": 0.8674444287224153,
+        "examples": 904,
+        "parameters": 38680,
+        "training_wall_seconds": 0.17777862306684256,
+        "training_cpu_seconds": 0.1777317529999891
+      },
+      "world_model_a": {
+        "loss": 0.2143599472742165,
+        "examples": 904,
+        "parameters": 36741,
+        "training_wall_seconds": 0.1700854953378439,
+        "training_cpu_seconds": 0.16608908099999553
+      },
+      "world_model_b": {
+        "loss": 0.011966230075773411,
+        "examples": 904,
+        "parameters": 40204,
+        "training_wall_seconds": 0.17047642078250647,
+        "training_cpu_seconds": 0.17046404400002757
+      },
+      "direct_scorer": {
+        "loss": 0.0005778589082955985,
+        "examples": 904,
+        "parameters": 38785,
+        "training_wall_seconds": 0.1535198027268052,
+        "training_cpu_seconds": 0.15348952499994084
+      }
+    }
+  },
+  {
+    "seed": 33,
+    "shots": 0,
+    "metrics": {
+      "baseline": {
+        "loss": 0.5344573750435931,
+        "examples": 2544,
+        "parameters": 38680,
+        "training_wall_seconds": 0.8500915672630072,
+        "training_cpu_seconds": 0.8491724990000193
+      },
+      "world_model_a": {
+        "loss": 0.01063670526674521,
+        "examples": 2544,
+        "parameters": 36741,
+        "training_wall_seconds": 0.7400029553100467,
+        "training_cpu_seconds": 0.7399597319999884
+      },
+      "world_model_b": {
+        "loss": 0.0035890763619645214,
+        "examples": 2544,
+        "parameters": 40204,
+        "training_wall_seconds": 0.715891339816153,
+        "training_cpu_seconds": 0.7156901099999686
+      },
+      "direct_scorer": {
+        "loss": 0.0015713618841291693,
+        "examples": 2544,
+        "parameters": 38785,
+        "training_wall_seconds": 0.663364514708519,
+        "training_cpu_seconds": 0.6620163339999863
+      }
+    }
+  },
+  {
+    "seed": 33,
+    "scenario": "open",
+    "shots": 1,
+    "adaptation_windows": 12,
+    "metrics": {
+      "baseline": {
+        "loss": 0.32964046732071905,
+        "examples": 992,
+        "parameters": 38680,
+        "training_wall_seconds": 0.20897747855633497,
+        "training_cpu_seconds": 0.2084699620000947
+      },
+      "world_model_a": {
+        "loss": 0.0016409035757063858,
+        "examples": 992,
+        "parameters": 36741,
+        "training_wall_seconds": 0.17478589620441198,
+        "training_cpu_seconds": 0.17454901700000391
+      },
+      "world_model_b": {
+        "loss": 0.0019486925091534372,
+        "examples": 992,
+        "parameters": 40204,
+        "training_wall_seconds": 0.1763973254710436,
+        "training_cpu_seconds": 0.1762621880000097
+      },
+      "direct_scorer": {
+        "loss": 0.000304554415408582,
+        "examples": 992,
+        "parameters": 38785,
+        "training_wall_seconds": 0.16354649793356657,
+        "training_cpu_seconds": 0.16352350899990142
+      }
+    }
+  },
+  {
+    "seed": 33,
+    "scenario": "open",
+    "shots": 5,
+    "adaptation_windows": 51,
+    "metrics": {
+      "baseline": {
+        "loss": 0.34390996516185957,
+        "examples": 959,
+        "parameters": 38680,
+        "training_wall_seconds": 0.2004467947408557,
+        "training_cpu_seconds": 0.20035639799993987
+      },
+      "world_model_a": {
+        "loss": 0.001517976690773251,
+        "examples": 959,
+        "parameters": 36741,
+        "training_wall_seconds": 0.13951146509498358,
+        "training_cpu_seconds": 0.1394857640000282
+      },
+      "world_model_b": {
+        "loss": 0.0023174647523946787,
+        "examples": 959,
+        "parameters": 40204,
+        "training_wall_seconds": 0.16078576538711786,
+        "training_cpu_seconds": 0.1607615010000245
+      },
+      "direct_scorer": {
+        "loss": 0.00035838111481222403,
+        "examples": 959,
+        "parameters": 38785,
+        "training_wall_seconds": 0.1451801359653473,
+        "training_cpu_seconds": 0.1451545749999923
+      }
+    }
+  },
+  {
+    "seed": 33,
+    "scenario": "detour",
+    "shots": 1,
+    "adaptation_windows": 19,
+    "metrics": {
+      "baseline": {
+        "loss": 0.3951016209974615,
+        "examples": 994,
+        "parameters": 38680,
+        "training_wall_seconds": 0.21848537027835846,
+        "training_cpu_seconds": 0.2184836000000132
+      },
+      "world_model_a": {
+        "loss": 0.0015581823188354311,
+        "examples": 994,
+        "parameters": 36741,
+        "training_wall_seconds": 0.17230523936450481,
+        "training_cpu_seconds": 0.17229389500005254
+      },
+      "world_model_b": {
+        "loss": 0.0021023661585925692,
+        "examples": 994,
+        "parameters": 40204,
+        "training_wall_seconds": 0.15169691387563944,
+        "training_cpu_seconds": 0.15169888599996284
+      },
+      "direct_scorer": {
+        "loss": 0.0003278337466934325,
+        "examples": 994,
+        "parameters": 38785,
+        "training_wall_seconds": 0.15343309752643108,
+        "training_cpu_seconds": 0.1534209929999406
+      }
+    }
+  },
+  {
+    "seed": 33,
+    "scenario": "detour",
+    "shots": 5,
+    "adaptation_windows": 94,
+    "metrics": {
+      "baseline": {
+        "loss": 0.4540040266268032,
+        "examples": 970,
+        "parameters": 38680,
+        "training_wall_seconds": 0.23207968566566706,
+        "training_cpu_seconds": 0.2319860410000274
+      },
+      "world_model_a": {
+        "loss": 0.0013546693633243287,
+        "examples": 970,
+        "parameters": 36741,
+        "training_wall_seconds": 0.23522389959543943,
+        "training_cpu_seconds": 0.23505756199995176
+      },
+      "world_model_b": {
+        "loss": 0.00214501890046618,
+        "examples": 970,
+        "parameters": 40204,
+        "training_wall_seconds": 0.2335617234930396,
+        "training_cpu_seconds": 0.23281037600008858
+      },
+      "direct_scorer": {
+        "loss": 0.0003342367214217936,
+        "examples": 970,
+        "parameters": 38785,
+        "training_wall_seconds": 0.2183516686782241,
+        "training_cpu_seconds": 0.2164083989999881
+      }
+    }
+  },
+  {
+    "seed": 33,
+    "scenario": "key_door",
+    "shots": 1,
+    "adaptation_windows": 20,
+    "metrics": {
+      "baseline": {
+        "loss": 0.4417866230010986,
+        "examples": 1000,
+        "parameters": 38680,
+        "training_wall_seconds": 0.24330323468893766,
+        "training_cpu_seconds": 0.24309880999999223
+      },
+      "world_model_a": {
+        "loss": 0.0013738866695202888,
+        "examples": 1000,
+        "parameters": 36741,
+        "training_wall_seconds": 0.22451357543468475,
+        "training_cpu_seconds": 0.2243004380000002
+      },
+      "world_model_b": {
+        "loss": 0.0016941170850768685,
+        "examples": 1000,
+        "parameters": 40204,
+        "training_wall_seconds": 0.21831320598721504,
+        "training_cpu_seconds": 0.2182052370000065
+      },
+      "direct_scorer": {
+        "loss": 0.00041934022353962066,
+        "examples": 1000,
+        "parameters": 38785,
+        "training_wall_seconds": 0.20610427483916283,
+        "training_cpu_seconds": 0.20601831700003004
+      }
+    }
+  },
+  {
+    "seed": 33,
+    "scenario": "key_door",
+    "shots": 5,
+    "adaptation_windows": 85,
+    "metrics": {
+      "baseline": {
+        "loss": 0.5172253779462865,
+        "examples": 925,
+        "parameters": 38680,
+        "training_wall_seconds": 0.210060334764421,
+        "training_cpu_seconds": 0.2098543490000111
+      },
+      "world_model_a": {
+        "loss": 0.0018552269351140068,
+        "examples": 925,
+        "parameters": 36741,
+        "training_wall_seconds": 0.18298931419849396,
+        "training_cpu_seconds": 0.1827037759999257
+      },
+      "world_model_b": {
+        "loss": 0.0024583730144375885,
+        "examples": 925,
+        "parameters": 40204,
+        "training_wall_seconds": 0.20138521026819944,
+        "training_cpu_seconds": 0.20122075899996616
+      },
+      "direct_scorer": {
+        "loss": 0.0006602860345958254,
+        "examples": 925,
+        "parameters": 38785,
+        "training_wall_seconds": 0.1919938875362277,
+        "training_cpu_seconds": 0.1919024349999745
+      }
+    }
+  },
+  {
+    "seed": 33,
+    "scenario": "rotated_controls",
+    "shots": 1,
+    "adaptation_windows": 19,
+    "metrics": {
+      "baseline": {
+        "loss": 0.7455537734137214,
+        "examples": 994,
+        "parameters": 38680,
+        "training_wall_seconds": 0.21638743486255407,
+        "training_cpu_seconds": 0.21596827300004406
+      },
+      "world_model_a": {
+        "loss": 0.12749426174811435,
+        "examples": 994,
+        "parameters": 36741,
+        "training_wall_seconds": 0.17034195829182863,
+        "training_cpu_seconds": 0.17007631899991793
+      },
+      "world_model_b": {
+        "loss": 0.007388938972595292,
+        "examples": 994,
+        "parameters": 40204,
+        "training_wall_seconds": 0.19293329492211342,
+        "training_cpu_seconds": 0.19263421700009076
+      },
+      "direct_scorer": {
+        "loss": 0.0003344753907732965,
+        "examples": 994,
+        "parameters": 38785,
+        "training_wall_seconds": 0.20055667217820883,
+        "training_cpu_seconds": 0.20046218699997098
+      }
+    }
+  },
+  {
+    "seed": 33,
+    "scenario": "rotated_controls",
+    "shots": 5,
+    "adaptation_windows": 94,
+    "metrics": {
+      "baseline": {
+        "loss": 0.8625567050324273,
+        "examples": 970,
+        "parameters": 38680,
+        "training_wall_seconds": 0.20041445456445217,
+        "training_cpu_seconds": 0.1993840549999959
+      },
+      "world_model_a": {
+        "loss": 0.19141672987913347,
+        "examples": 970,
+        "parameters": 36741,
+        "training_wall_seconds": 0.18325759656727314,
+        "training_cpu_seconds": 0.17987911800003076
+      },
+      "world_model_b": {
+        "loss": 0.012589743685399748,
+        "examples": 970,
+        "parameters": 40204,
+        "training_wall_seconds": 0.192367659881711,
+        "training_cpu_seconds": 0.19181647400000656
+      },
+      "direct_scorer": {
+        "loss": 0.0005403114836807027,
+        "examples": 970,
+        "parameters": 38785,
+        "training_wall_seconds": 0.1613136986270547,
+        "training_cpu_seconds": 0.16065005899997686
+      }
+    }
+  }
+]

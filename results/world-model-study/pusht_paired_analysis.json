@@ -1,0 +1,309 @@
+{
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 42,
+  "uncertainty": "Paired reset-cluster bootstrap, keeping standard and shifted trials together; one policy training seed and one auxiliary seed. Not training uncertainty; no multiplicity adjustment.",
+  "inference_time_definition": "Sum of decision latencies reconstructed as decisions times episode mean decision latency; excludes simulation and auxiliary training.",
+  "comparisons": [
+    {
+      "method": "world_model_a",
+      "episodes": 24,
+      "reset_clusters": 12,
+      "successes": 12,
+      "baseline_successes": 9,
+      "success_gain": {
+        "mean": 0.125,
+        "paired_reset_cluster_bootstrap_95_ci": [
+          -0.08333333333333333,
+          0.375
+        ]
+      },
+      "max_reward_gain": {
+        "mean": 0.04713637941696893,
+        "paired_reset_cluster_bootstrap_95_ci": [
+          -0.0053714274772591435,
+          0.11729742700578392
+        ]
+      },
+      "extra_inference_seconds_per_episode": {
+        "mean": 64.88188408125036,
+        "paired_reset_cluster_bootstrap_95_ci": [
+          51.65370516154992,
+          76.63153164614631
+        ]
+      },
+      "extra_control_moves": {
+        "mean": -9.041666666666666,
+        "paired_reset_cluster_bootstrap_95_ci": [
+          -44.666666666666664,
+          25.541666666666668
+        ]
+      },
+      "mean_of_episode_mean_decision_latencies_seconds": 3.5448571061894385,
+      "baseline_mean_of_episode_mean_decision_latencies_seconds": 1.4514543505269917,
+      "pooled_mean_decision_latency_seconds": 3.552255129318915,
+      "baseline_pooled_mean_decision_latency_seconds": 1.4491048666705442,
+      "pooled_latency_ratio": 2.451344420283784,
+      "strata": {
+        "standard": {
+          "method_successes": 3,
+          "baseline_successes": 6,
+          "episodes": 12
+        },
+        "shifted_start": {
+          "method_successes": 9,
+          "baseline_successes": 3,
+          "episodes": 12
+        }
+      },
+      "discordant_pairs": {
+        "model_only_success": 8,
+        "baseline_only_success": 5
+      },
+      "break_even_lambda_point_estimate": 0.0019265778386377444
+    },
+    {
+      "method": "world_model",
+      "episodes": 24,
+      "reset_clusters": 12,
+      "successes": 9,
+      "baseline_successes": 9,
+      "success_gain": {
+        "mean": 0.0,
+        "paired_reset_cluster_bootstrap_95_ci": [
+          -0.25,
+          0.20833333333333334
+        ]
+      },
+      "max_reward_gain": {
+        "mean": 0.0326199403611522,
+        "paired_reset_cluster_bootstrap_95_ci": [
+          -0.011072070270498585,
+          0.09101009080806943
+        ]
+      },
+      "extra_inference_seconds_per_episode": {
+        "mean": 71.27390575893999,
+        "paired_reset_cluster_bootstrap_95_ci": [
+          59.39171103967334,
+          81.91325805500965
+        ]
+      },
+      "extra_control_moves": {
+        "mean": 0.25,
+        "paired_reset_cluster_bootstrap_95_ci": [
+          -31.209374999999998,
+          35.21041666666664
+        ]
+      },
+      "mean_of_episode_mean_decision_latencies_seconds": 3.61805232504151,
+      "baseline_mean_of_episode_mean_decision_latencies_seconds": 1.4514543505269917,
+      "pooled_mean_decision_latency_seconds": 3.611622513837272,
+      "baseline_pooled_mean_decision_latency_seconds": 1.4491048666705442,
+      "pooled_latency_ratio": 2.4923127351958434,
+      "strata": {
+        "standard": {
+          "method_successes": 6,
+          "baseline_successes": 6,
+          "episodes": 12
+        },
+        "shifted_start": {
+          "method_successes": 3,
+          "baseline_successes": 3,
+          "episodes": 12
+        }
+      },
+      "discordant_pairs": {
+        "model_only_success": 7,
+        "baseline_only_success": 7
+      },
+      "break_even_lambda_point_estimate": null
+    },
+    {
+      "method": "direct_scorer",
+      "episodes": 24,
+      "reset_clusters": 12,
+      "successes": 9,
+      "baseline_successes": 9,
+      "success_gain": {
+        "mean": 0.0,
+        "paired_reset_cluster_bootstrap_95_ci": [
+          -0.20833333333333334,
+          0.25
+        ]
+      },
+      "max_reward_gain": {
+        "mean": 0.02401557646298157,
+        "paired_reset_cluster_bootstrap_95_ci": [
+          -0.01866050046929561,
+          0.09183940858012411
+        ]
+      },
+      "extra_inference_seconds_per_episode": {
+        "mean": 72.38268853417442,
+        "paired_reset_cluster_bootstrap_95_ci": [
+          59.60014817539874,
+          83.03536779982872
+        ]
+      },
+      "extra_control_moves": {
+        "mean": 2.5416666666666665,
+        "paired_reset_cluster_bootstrap_95_ci": [
+          -28.916666666666668,
+          31.083333333333332
+        ]
+      },
+      "mean_of_episode_mean_decision_latencies_seconds": 3.6292638865835603,
+      "baseline_mean_of_episode_mean_decision_latencies_seconds": 1.4514543505269917,
+      "pooled_mean_decision_latency_seconds": 3.622394143606088,
+      "baseline_pooled_mean_decision_latency_seconds": 1.4491048666705442,
+      "pooled_latency_ratio": 2.4997460342044686,
+      "strata": {
+        "standard": {
+          "method_successes": 6,
+          "baseline_successes": 6,
+          "episodes": 12
+        },
+        "shifted_start": {
+          "method_successes": 3,
+          "baseline_successes": 3,
+          "episodes": 12
+        }
+      },
+      "discordant_pairs": {
+        "model_only_success": 4,
+        "baseline_only_success": 4
+      },
+      "break_even_lambda_point_estimate": null
+    }
+  ],
+  "pairwise_controls": [
+    {
+      "target": "world_model_a",
+      "reference": "direct_scorer",
+      "success_gain": {
+        "mean": 0.125,
+        "paired_reset_cluster_bootstrap_95_ci": [
+          -0.041666666666666664,
+          0.2916666666666667
+        ]
+      },
+      "extra_inference_seconds_per_episode": {
+        "mean": -7.500804452924058,
+        "paired_reset_cluster_bootstrap_95_ci": [
+          -14.22938518835969,
+          -0.6970685126968139
+        ]
+      }
+    },
+    {
+      "target": "world_model",
+      "reference": "direct_scorer",
+      "success_gain": {
+        "mean": 0.0,
+        "paired_reset_cluster_bootstrap_95_ci": [
+          -0.25,
+          0.25
+        ]
+      },
+      "extra_inference_seconds_per_episode": {
+        "mean": -1.108782775234431,
+        "paired_reset_cluster_bootstrap_95_ci": [
+          -18.319491085722497,
+          16.6472548202786
+        ]
+      }
+    },
+    {
+      "target": "world_model_a",
+      "reference": "world_model",
+      "success_gain": {
+        "mean": 0.125,
+        "paired_reset_cluster_bootstrap_95_ci": [
+          -0.08333333333333333,
+          0.375
+        ]
+      },
+      "extra_inference_seconds_per_episode": {
+        "mean": -6.392021677689627,
+        "paired_reset_cluster_bootstrap_95_ci": [
+          -22.308900524829124,
+          8.3422444618016
+        ]
+      }
+    }
+  ],
+  "figure_data": [
+    {
+      "method": "baseline",
+      "success_rate": {
+        "mean": 0.375,
+        "paired_reset_cluster_bootstrap_95_ci": [
+          0.20833333333333334,
+          0.5416666666666666
+        ]
+      },
+      "pooled_latency_seconds": {
+        "mean": 1.4491048666705442,
+        "paired_reset_cluster_bootstrap_95_ci": [
+          1.4391813905333841,
+          1.4586174268182104
+        ]
+      },
+      "mean_inference_seconds_per_episode": 47.45818438346032
+    },
+    {
+      "method": "world_model_a",
+      "success_rate": {
+        "mean": 0.5,
+        "paired_reset_cluster_bootstrap_95_ci": [
+          0.3333333333333333,
+          0.6666666666666666
+        ]
+      },
+      "pooled_latency_seconds": {
+        "mean": 3.552255129318915,
+        "paired_reset_cluster_bootstrap_95_ci": [
+          3.519639387338561,
+          3.5833158232747158
+        ]
+      },
+      "mean_inference_seconds_per_episode": 112.34006846471068
+    },
+    {
+      "method": "world_model",
+      "success_rate": {
+        "mean": 0.375,
+        "paired_reset_cluster_bootstrap_95_ci": [
+          0.20833333333333334,
+          0.5416666666666666
+        ]
+      },
+      "pooled_latency_seconds": {
+        "mean": 3.611622513837272,
+        "paired_reset_cluster_bootstrap_95_ci": [
+          3.5798313666590724,
+          3.645483433783766
+        ]
+      },
+      "mean_inference_seconds_per_episode": 118.73209014240031
+    },
+    {
+      "method": "direct_scorer",
+      "success_rate": {
+        "mean": 0.375,
+        "paired_reset_cluster_bootstrap_95_ci": [
+          0.16666666666666666,
+          0.5833333333333334
+        ]
+      },
+      "pooled_latency_seconds": {
+        "mean": 3.622394143606088,
+        "paired_reset_cluster_bootstrap_95_ci": [
+          3.5764416999800517,
+          3.6741353989910928
+        ]
+      },
+      "mean_inference_seconds_per_episode": 119.84087291763474
+    }
+  ]
+}

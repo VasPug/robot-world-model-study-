@@ -1,0 +1,23 @@
+{
+  "variant": "direct_scorer",
+  "seed": 42,
+  "threads": 2,
+  "candidates": 4,
+  "execution_horizon": 8,
+  "num_inference_steps": 100,
+  "max_steps": 300,
+  "test_start_seed": 610000,
+  "test_seeds": 12,
+  "conditions": [
+    "standard",
+    "shifted_start"
+  ],
+  "shift_pixels": 40,
+  "epochs": 80,
+  "batch_size": 256,
+  "learning_rate": 0.001,
+  "auxiliary_hidden": 256,
+  "artifact_root": "outputs/pusht-pilot",
+  "input_cache": ".cache/pusht",
+  "expected_auxiliary_sha256": "758003dabe44f020d84db585bffeee3179d855691224f6fb115e003d6c4eb34d"
+}

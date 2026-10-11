@@ -1,0 +1,37 @@
+{
+  "training_seeds": [
+    11,
+    22,
+    33
+  ],
+  "scenarios": [
+    "open",
+    "detour",
+    "key_door",
+    "rotated_controls"
+  ],
+  "adaptation_episodes": [
+    0,
+    1,
+    5
+  ],
+  "train_layouts_per_scenario": 40,
+  "validation_layouts": 12,
+  "test_layouts": 20,
+  "horizon": 6,
+  "candidates": 12,
+  "max_steps": 80,
+  "hidden": 128,
+  "epochs": 35,
+  "adaptation_epochs": 20,
+  "batch_size": 256,
+  "learning_rate": 0.001,
+  "threads": 1,
+  "lambdas_per_second": [
+    0,
+    0.1,
+    1,
+    10
+  ],
+  "artifact_root": "outputs/navigation-study"
+}

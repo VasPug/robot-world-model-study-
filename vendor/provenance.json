@@ -1,0 +1,19 @@
+{
+  "repository": "https://github.com/real-stanford/diffusion_policy",
+  "revision": "5ba07ac6661db573af695b419a7947ecb704690f",
+  "files": {
+    "diffusion_policy/env/pusht/pusht_keypoints_env.py": "7103face7a744bd85815eaf7d7a6d292c0910ef933d3f730e4c34aea95b529af",
+    "diffusion_policy/env/pusht/pymunk_keypoint_manager.py": "26cb951d046992906ca55d7a89a44022d930be5ec4ea8fd56db889f9d6e12275",
+    "diffusion_policy/env/pusht/pymunk_override.py": "85e7c54b5e9630a9f7e675250ee514ae9b2249d11654ec0811d8e4bcf413fe39",
+    "diffusion_policy/env/pusht/pusht_env.py": "759107dc0ea6017b8afe3380ce23817713edf26af725fc4f03c0416ced940bd0",
+    "diffusion_policy/policy/diffusion_transformer_lowdim_policy.py": "cbba60f2f7749125b3af397ec2ad7226b04b5f6e9d4bc885c569af83334b6305",
+    "diffusion_policy/model/diffusion/mask_generator.py": "23dba4c112ed57e41d530612c79d9841c9b3c5bd3d6790863d1739190a9ab7b0",
+    "diffusion_policy/model/common/module_attr_mixin.py": "658dececa20f7628960fc1a8db89e4be3693e1bba47f63d1ff8a4faa2d481e45",
+    "diffusion_policy/model/diffusion/transformer_for_diffusion.py": "c4cfd71a2f1b4f5181c7ccc391d71f19ebce74c698fc12725bb88317b6f8fd8f",
+    "diffusion_policy/model/diffusion/positional_embedding.py": "2266c75ecc9c9ac8ca126839d39a7bafbdd7af8800d6de903f66815e64cc366c",
+    "diffusion_policy/policy/base_lowdim_policy.py": "80779d2492f629be926f0788e763fb3d33beba024ed94c4327bc8eae5f4100bb",
+    "diffusion_policy/model/common/normalizer.py": "92322852fc04d956d0dd43a2e41fb461dee246bbf97ddc7940186a9307525ed3",
+    "diffusion_policy/model/common/dict_of_tensor_mixin.py": "158b63a244bcfb9aa377206730f5f59778c6aeb9138ff55c76d2c28ec46952d1",
+    "diffusion_policy/common/pytorch_util.py": "96ce50e191b4c837532529040af65d2b9a1f433f33a5187f8cf256b62d84b6b4"
+  }
+}
